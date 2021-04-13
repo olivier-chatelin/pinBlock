@@ -1,0 +1,30 @@
+.{
+    padding: 0;
+    margin: 0;
+
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(153, 162, 238, 0.685);
+}
+canvas{
+    /* position: absolute; */
+    
+    display: block;
+    margin:auto;
+}
+#gameScreen{
+    border-top: 12px ridge rgba(254, 254, 254, 1);
+    border-left: 12px ridge rgba(254, 254, 254, 1);
+    border-right: 12px ridge rgba(254, 254, 254, 1);
+    border-radius: 20px;
+   
+    
+
+}
+
+#scoreScreen{
+    background-color: white;
+   
+}
